@@ -1,5 +1,6 @@
 package UPsay.decouverteAndroid.tp1_android_bases;
 
+import android.annotation.SuppressLint;
 import android.os.Bundle;
 import android.view.View;
 import android.widget.TextView;
@@ -24,9 +25,10 @@ public class MainActivity extends AppCompatActivity {
         });
     }
 
+    @SuppressLint("SetTextI18n")
     public void Dessiner(View view) {
-        TextView editText = (TextView) findViewById(R.id.monTexte);
-        editText.setText("YES !!!");
+        //TextView editText = (TextView) findViewById(R.id.monTexte);
+        //editText.setText("YES !!!");
         setContentView(R.layout.gestionaire2);
     }
 }

@@ -1,4 +1,8 @@
 <resources>
     <string name="app_name">TP1_Android_Bases</string>
     <string name="Button">Bouton</string>
+    <string name="name">Name</string>
+    <string name="gestionnaire2">Gestionnaire2</string>
+    <string name="on_off">ON / OFF</string>
+    <string name="monTexte">Salut!</string>
 </resources>
